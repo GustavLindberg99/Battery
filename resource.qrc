@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>battery_fr.qm</file>
+        <file>battery_sv.qm</file>
+        <file>qtbase_fr.qm</file>
+        <file>qtbase_sv.qm</file>
+        <file>icon.ico</file>
+    </qresource>
+</RCC>
