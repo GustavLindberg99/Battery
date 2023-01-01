@@ -134,7 +134,7 @@ int main(int argc, char **argv){
         msg.setIconPixmap(QPixmap(":/icon.ico"));
         msg.setWindowIcon(QIcon(":/icon.ico"));
         msg.setWindowTitle(QObject::tr("About"));
-        msg.setText(QObject::tr("Battery warning program by Gustav Lindberg.") + "<br><br>" + QObject::tr("Version %1").arg(PROGRAMVERSION) + "<br><br>" + QObject::tr("This program is licensed under the GNU GPL 2.0.") + "<br><br>" + QObject::tr("Source code:") + " <a href=\"https://github.com/GustavLindberg99/Battery\">https://github.com/GustavLindberg99/Battery</a><br/><br/>" + QObject::tr("Icons made by %3 from %1 are licensed by %2.").arg("<a href=\"https://www.flaticon.com/\">www.flaticon.com</a>", "<a href=\"http://creativecommons.org/licenses/by/3.0/\">CC 3.0 BY</a>", "<a href=\"https://www.flaticon.com/authors/smashicons\">Smashicons</a>"));
+        msg.setText(QObject::tr("Battery warning program by Gustav Lindberg.") + "<br><br>" + QObject::tr("Version %1").arg(PROGRAMVERSION) + "<br><br>" + QObject::tr("This program is licensed under the GNU GPL 3.0.") + "<br><br>" + QObject::tr("Source code:") + " <a href=\"https://github.com/GustavLindberg99/Battery\">https://github.com/GustavLindberg99/Battery</a><br/><br/>" + QObject::tr("Icons made by %3 from %1 are licensed by %2.").arg("<a href=\"https://www.flaticon.com/\">www.flaticon.com</a>", "<a href=\"http://creativecommons.org/licenses/by/3.0/\">CC 3.0 BY</a>", "<a href=\"https://www.flaticon.com/authors/smashicons\">Smashicons</a>"));
         msg.exec();
     });
     QAction *aboutQtAction = contextMenu.addAction(QObject::tr("About &Qt"));
