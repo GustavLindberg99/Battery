@@ -41,12 +41,12 @@ int main(int argc, char **argv){
     QTranslator baseTranslator;
     (void) baseTranslator.load(":/qtbase_" + QLocale::system().name().section('_', 0, 0));
     app.installTranslator(&baseTranslator);
-    
+
     checkForUpdates(
         QUrl("https://github.com/GustavLindberg99/Battery"),
-        QUrl("versionHeader"),
-        QUrl("zip"),
-        QUrl("installer")
+        QUrl("https://raw.githubusercontent.com/GustavLindberg99/Battery/main/sources/version.h"),
+        QUrl("https://raw.githubusercontent.com/GustavLindberg99/Battery/main/Battery-portable.zip"),
+        QUrl("https://raw.githubusercontent.com/GustavLindberg99/Battery/main/Battery-install.exe")
     );
 
     QSettings settings("Gustav Lindberg", "Battery");
