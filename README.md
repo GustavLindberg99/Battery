@@ -3,7 +3,7 @@ This is a Windows program that warns you when your battery is almost full.
 
 ## Setup
 
-The easiest way to install the program is to download and run [this setup program](https://raw.githubusercontent.com/GustavLindberg99/Battery/main/Battery-install.exe). This only installs the program for the current user. Alternatively, if you prefer to download the files manually, you can download and extract [this ZIP folder](https://raw.githubusercontent.com/GustavLindberg99/Battery/main/Battery-portable.zip) with the executable and the necessary DLLs.
+The easiest way to install the program is to download and run [this setup program](https://raw.githubusercontent.com/GustavLindberg99/Battery/main/Battery-install.exe). Alternatively, if you prefer to download the files manually, you can download and extract [this ZIP folder](https://raw.githubusercontent.com/GustavLindberg99/Battery/main/Battery-portable.zip) with the executable and the necessary DLLs.
 
 ## Usage
 
