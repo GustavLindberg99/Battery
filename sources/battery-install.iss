@@ -3,13 +3,13 @@
 
 #define MyAppName         "Battery"
 #define MyAppExeName      MyAppName + ".exe"
-#define MyAppExePath      "C:\Users\glind\OneDrive\Documents\Battery\build-Battery\release"
-#define MyDepenciesPath   "C:\Users\glind\OneDrive\Documents\Battery\dependencies"
+#define MyAppExePath      "..\build-Battery\release"
+#define MyDepenciesPath   "..\dependencies"
 #define MyAppVersion      GetVersionNumbersString(MyAppExePath + "\" + MyAppExeName)
 #define MyAppURL          "https://github.com/GustavLindberg99/Battery"
-#define MyAppOutputDir    "C:\Users\glind\OneDrive\Documents\Battery"
-#define MyAppOutputExe    "Battery-install-windows"
-#define MyAppLicenseFile  "C:\Users\glind\OneDrive\Documents\FeynmanDiagramEditor\license.rtf"
+#define MyAppOutputDir    ".."
+#define MyAppOutputExe    "Battery-install"
+#define MyAppLicenseFile  "..\LICENSE"
 #define MyAppCompany      "Gustav Lindberg"
 #define MyAppStartingYear "2021"
 #define CurrentYear       GetDateTimeString('yyyy','','')
