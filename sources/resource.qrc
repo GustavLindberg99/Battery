@@ -1,9 +1,11 @@
 <RCC>
     <qresource prefix="/">
-        <file>battery_fr.qm</file>
-        <file>battery_sv.qm</file>
-        <file>qtbase_fr.qm</file>
-        <file>qtbase_sv.qm</file>
         <file>icon.ico</file>
+        <file>translations/battery_fr.qm</file>
+        <file>translations/battery_fr.ts</file>
+        <file>translations/battery_sv.qm</file>
+        <file>translations/battery_sv.ts</file>
+        <file>translations/qtbase_fr.qm</file>
+        <file>translations/qtbase_sv.qm</file>
     </qresource>
 </RCC>

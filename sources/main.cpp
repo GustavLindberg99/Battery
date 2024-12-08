@@ -36,10 +36,10 @@ int main(int argc, char **argv){
     app.setQuitOnLastWindowClosed(false);
 
     QTranslator translator;
-    (void) translator.load(":/battery_" + QLocale::system().name().section('_', 0, 0));
+    (void) translator.load("./translationsbattery_" + QLocale::system().name().section('_', 0, 0));
     app.installTranslator(&translator);
     QTranslator baseTranslator;
-    (void) baseTranslator.load(":/qtbase_" + QLocale::system().name().section('_', 0, 0));
+    (void) baseTranslator.load("./translationsqtbase_" + QLocale::system().name().section('_', 0, 0));
     app.installTranslator(&baseTranslator);
 
     checkForUpdates(
